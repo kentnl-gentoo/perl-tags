@@ -25,7 +25,6 @@ t/01_basic.t
 t/02_subclass.t
 t/03_exuberant.t
 t/04_ppi.t
-t/05_vim.t
 t/_vimrc
 t/boilerplate.t
 t/pod.t
