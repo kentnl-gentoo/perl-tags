@@ -37,6 +37,7 @@ SKIP: {
     system vim =>
              -u => 't/_vimrc',        # use our vimrc to add Perl::Tags settings etc.
              -S => 't/session.vim',   # use our session file to make modfications to file
+             '--noplugin',            # Don't load 3rd party plugins which can break
             '-n',                     # don't use swapfile
             $temp;
 
