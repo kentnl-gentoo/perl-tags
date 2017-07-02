@@ -1,6 +1,6 @@
 use strict;
 use warnings;
-use inc::Module::Install;
+use lib q[.]; use inc::Module::Install;
 
 name        'Perl-Tags';
 all_from    'lib/Perl/Tags.pm';
