@@ -1,4 +1,12 @@
 use strict; use warnings;
+
+BEGIN {
+  if ( not $ENV{VIM_TESTS} ) {
+    print "1..0 # SKIP VIM_TESTS not set";
+    exit;
+  }
+}
+
 use Data::Dumper;
 
 use Test::More tests=>1;
